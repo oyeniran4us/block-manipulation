@@ -71,7 +71,6 @@ let rgbaInput = document.querySelectorAll(".rgba-container input");
 
 rgbaInput.forEach((element)=>{
 element.addEventListener("input", ()=>{
-
     block.style.backgroundColor = `rgba(${rgbaR.value}, ${rgbaG.value}, ${rgbaB.value}, ${rgbaA.value})`
 
 })
