@@ -1,4 +1,4 @@
-window.addEventListener("load", ()=>{
+window.addEventListener("load",()=> {
 
 // ALL PARAMETERS 
 
@@ -75,5 +75,5 @@ element.addEventListener("input", ()=>{
     block.style.backgroundColor = `rgba(${rgbaR.value}, ${rgbaG.value}, ${rgbaB.value}, ${rgbaA.value})`
 
 })
-})
+});
 });
